@@ -1,0 +1,4 @@
+ {hotel.map((item)=><div key={item["res_id"]}>
+        {item["res_id"]}{' '}{' '}{item["res_name"]}{' '}{item["cuisines"]}{item["rating"]}
+                </div>
+            )}
